@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox maxWidth="1.7976931348623157E308" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="issuetrackinglite.IssueTrackingLiteController">
+   <children>
+      <SplitPane dividerPositions="0.5" VBox.vgrow="ALWAYS">
+         <items>
+            <ListView fx:id="list" />
+            <SplitPane orientation="VERTICAL">
+              <items>
+                <AnchorPane />
+              </items>
+            </SplitPane>
+         </items>
+      </SplitPane>
+   </children>
+</VBox>
